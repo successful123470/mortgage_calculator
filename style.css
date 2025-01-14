@@ -123,3 +123,35 @@ input[type="radio"] {
     font-size: 20px;
     font-weight: 100;
 }
+
+@media screen and (max-width: 768px) {
+
+    main {
+        flex-direction: column;
+        width: 90%;
+        border-radius: 0;
+
+    }
+
+    body {
+        background-color: darkkhaki;
+    }
+
+    main>section {
+        width: 100%;
+    }
+
+    .two {
+        flex-direction: column;
+    }
+
+    .data {
+        border-radius: 0;
+    }
+
+    .form buttom {
+        width: 100%;
+        font-size: 16px;
+
+    }
+}
